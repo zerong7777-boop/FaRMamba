@@ -1,6 +1,6 @@
 # FaRMamba (ICONIP 2025)
 
-Official PyTorch implementation of **FaRMamba**: *Frequency-based Learning and Reconstruction Aided Mamba for Medical Image Segmentation* (accepted at **ICONIP 2025**).
+Official PyTorch implementation of **FaRMamba**: *Frequency-based Learning and Reconstruction Aided Mamba for Medical Image Segmentation* (https://arxiv.org/abs/2507.20056) (accepted at **ICONIP 2025**).
 
 **Key components**
 - **MSFM**: multi-scale frequency module (**WT / FFT / DCT**)

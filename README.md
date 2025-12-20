@@ -123,7 +123,20 @@ Validation is executed every `--eval_interval` epochs, and `best.pth` is selecte
 
 ---
 
-## 7. Citation
+
+## 7. References
+
+This repository reuses / adapts implementations from the following projects (we thank the authors):
+- **CBAM**: Woo et al., *CBAM: Convolutional Block Attention Module*, ECCV 2018.
+- **MSCA**: Guo et al., *SegNeXt: Rethinking Convolutional Attention Design for Semantic Segmentation*, NeurIPS 2022.  
+  (MSCA module implementation follows open-source SegNeXt-style MSCA.)
+- **SwinUMamba**: the SwinUMamba / U-Mamba style vision Mamba segmentation backbone implementation used as the `VSSMEncoder`.
+
+If you believe any reference is missing or needs more explicit attribution (e.g., a specific GitHub repo link), please open an issue or contact the authors.
+
+---
+
+## 8. Citation
 
 If you find this work useful, please cite:
 
